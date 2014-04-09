@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		F6E6DC1E18F51CE70010881B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6E6DC1D18F51CE70010881B /* main.cpp */; };
 		F6E6DC2018F51CE70010881B /* Static.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F6E6DC1F18F51CE70010881B /* Static.1 */; };
+		F6E6DC2C18F51D200010881B /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6E6DC2618F51D200010881B /* Person.cpp */; };
+		F6E6DC2D18F51D200010881B /* List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6E6DC2818F51D200010881B /* List.cpp */; };
+		F6E6DC2E18F51D200010881B /* String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6E6DC2B18F51D200010881B /* String.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,12 @@
 		F6E6DC1A18F51CE70010881B /* Static */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Static; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E6DC1D18F51CE70010881B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F6E6DC1F18F51CE70010881B /* Static.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Static.1; sourceTree = "<group>"; };
+		F6E6DC2618F51D200010881B /* Person.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
+		F6E6DC2718F51D200010881B /* Person.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Person.hpp; sourceTree = "<group>"; };
+		F6E6DC2818F51D200010881B /* List.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = List.cpp; sourceTree = "<group>"; };
+		F6E6DC2918F51D200010881B /* List.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
+		F6E6DC2A18F51D200010881B /* String.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = String.hpp; sourceTree = "<group>"; };
+		F6E6DC2B18F51D200010881B /* String.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = String.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +69,12 @@
 		F6E6DC1C18F51CE70010881B /* Static */ = {
 			isa = PBXGroup;
 			children = (
+				F6E6DC2618F51D200010881B /* Person.cpp */,
+				F6E6DC2718F51D200010881B /* Person.hpp */,
+				F6E6DC2818F51D200010881B /* List.cpp */,
+				F6E6DC2918F51D200010881B /* List.hpp */,
+				F6E6DC2A18F51D200010881B /* String.hpp */,
+				F6E6DC2B18F51D200010881B /* String.cpp */,
 				F6E6DC1D18F51CE70010881B /* main.cpp */,
 				F6E6DC1F18F51CE70010881B /* Static.1 */,
 			);
@@ -117,6 +132,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6E6DC2D18F51D200010881B /* List.cpp in Sources */,
+				F6E6DC2C18F51D200010881B /* Person.cpp in Sources */,
+				F6E6DC2E18F51D200010881B /* String.cpp in Sources */,
 				F6E6DC1E18F51CE70010881B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
